@@ -7,7 +7,7 @@ const dom = {
     moviesContainer: document.getElementById('movies-container')
 };
 
-//component
+//component functions
 const loadMovies = (movies = []) => {
     dom.moviesContainer.innerHTML = '';
 
